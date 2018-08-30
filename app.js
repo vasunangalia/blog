@@ -190,6 +190,13 @@ app.delete("/blogs/:id",isLoggedIn, function(req ,res){
     })
 });
 
+
+// extra routes
+
+app.get("/about",function(req, res) {
+    res.render("about");
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("server is running");
 })
