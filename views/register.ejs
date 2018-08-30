@@ -1,0 +1,35 @@
+<% include ./partials/header %>
+
+
+<!-- <div class=" ui main text container">
+    <form action="/register" method="POST">
+    <input type="text" name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+    <button>Submit</button>
+</form>
+
+</div>
+-->
+
+<div class="ui main text container "><h3>Register</h3>
+<div class="ui inverted segment">
+  <div class="ui inverted form">
+      <form action="/register" method="POST">
+    <div class="two fields">
+      <div class="field">
+        <label>Username</label>
+         <input type="text" name="username" placeholder="username">
+      </div>
+      <div class="field">
+        <label>Password</label>
+         <input type="password" name="password" placeholder="password">
+      </div>
+    </div>
+     <button class="ui submit button">submit</button>
+    </form>
+  </div>
+</div>
+</div>
+
+
+<% include ./partials/footer %>
